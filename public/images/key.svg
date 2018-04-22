@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="23px" viewBox="0 0 25 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_vpn_key 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.1525,12.047619 C14.1821667,9.2838961 11.5551667,7.3030303 8.46666667,7.3030303 C4.54983333,7.3030303 1.36666667,10.4937662 1.36666667,14.4199134 C1.36666667,18.3460606 4.54983333,21.5367965 8.46666667,21.5367965 C11.5551667,21.5367965 14.1821667,19.5559307 15.1525,16.7922078 L20.3,16.7922078 L20.3,21.5367965 L25.0333333,21.5367965 L25.0333333,16.7922078 L27.4,16.7922078 L27.4,12.047619 L15.1525,12.047619 L15.1525,12.047619 Z M8.46666667,16.7922078 C7.165,16.7922078 6.1,15.7246753 6.1,14.4199134 C6.1,13.1151515 7.165,12.047619 8.46666667,12.047619 C9.76833333,12.047619 10.8333333,13.1151515 10.8333333,14.4199134 C10.8333333,15.7246753 9.76833333,16.7922078 8.46666667,16.7922078 L8.46666667,16.7922078 Z" id="path-1"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LogIn.1" transform="translate(-214.000000, -509.000000)">
+            <g id="Popup" transform="translate(40.000000, 108.000000)">
+                <g id="Group-2" transform="translate(155.000000, 324.000000)">
+                    <g id="Username-or-email-Login" transform="translate(0.000000, 2.000000)">
+                        <g id="Password" transform="translate(16.000000, 71.402597)">
+                            <g id="ic_vpn_key-1" transform="translate(0.383333, 0.419913)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#D1D1D1" transform="translate(14.383333, 14.419913) rotate(-45.000000) translate(-14.383333, -14.419913) " xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

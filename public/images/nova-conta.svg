@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.8333333,0 C5.30133333,0 0,5.31393939 0,11.8614719 C0,18.4090043 5.30133333,23.7229437 11.8333333,23.7229437 C18.3653333,23.7229437 23.6666667,18.4090043 23.6666667,11.8614719 C23.6666667,5.31393939 18.3653333,0 11.8333333,0 L11.8333333,0 Z M11.8333333,3.55844156 C13.7976667,3.55844156 15.3833333,5.14787879 15.3833333,7.11688312 C15.3833333,9.08588745 13.7976667,10.6753247 11.8333333,10.6753247 C9.869,10.6753247 8.28333333,9.08588745 8.28333333,7.11688312 C8.28333333,5.14787879 9.869,3.55844156 11.8333333,3.55844156 L11.8333333,3.55844156 Z M11.8333333,20.4017316 C8.875,20.4017316 6.25983333,18.8834632 4.73333333,16.5823377 C4.76883333,14.2219048 9.46666667,12.9290043 11.8333333,12.9290043 C14.1881667,12.9290043 18.8978333,14.2219048 18.9333333,16.5823377 C17.4068333,18.8834632 14.7916667,20.4017316 11.8333333,20.4017316 L11.8333333,20.4017316 Z" id="path-1"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LogIn.1" transform="translate(-196.000000, -695.000000)">
+            <g id="Popup" transform="translate(40.000000, 108.000000)">
+                <g id="Group-2" transform="translate(155.000000, 324.000000)">
+                    <g id="Group" transform="translate(1.000000, 260.000000)">
+                        <g id="ic_account_circle-1" transform="translate(2.000000, 5.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#0271BE" xlink:href="#path-1"></use>
+                        </g>
+                        <circle id="Oval" fill="#0271BE" cx="5.5" cy="8.5" r="5.5"></circle>
+                        <text id="+" font-family="LucidaGrande-Bold, Lucida Grande" font-size="12" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="0.227539062" y="12">+</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
