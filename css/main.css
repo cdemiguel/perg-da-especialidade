@@ -75,6 +75,12 @@ label {
   /* Firefox 18- */
   color: #d1d1d1;
 }
+.progress {
+  height: 2rem;
+}
+.bg-success {
+  background-color: #49D59D!important;
+}
 
 /*Login*/
 .section-login .subsection-image {
@@ -279,4 +285,27 @@ footer .copyright-text {
   background: #FFF;
   border: 1px solid #0271be;
   color: #0271be;
+}
+/*Instructions container*/
+.instructions-container {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+}
+.instructions-container .button {
+  background: #0271be;
+  width: 100%;
+}
+/*Questions correction*/
+.question.error {
+  border: 1px solid #d0021b;
+}
+.question.correct {
+  border: 1px solid #49D59D;
+}
+/*Example questions*/
+.example-content {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+}
+/*Report*/
+.report-container .report-info {
+  font-size: 1.5rem;
 }
