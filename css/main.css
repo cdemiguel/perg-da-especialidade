@@ -17,6 +17,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.main-background-color {
+  background: #0271be;
+}
 .main-font-color {
   color: #0271be;
 }
@@ -307,5 +310,15 @@ footer .copyright-text {
 }
 /*Report*/
 .report-container .report-info {
+  font-size: 1.5rem;
+}
+/*Banner info*/
+.banner-info-container .button {
+  width: 200px;
+}
+.banner-info-container .button.main-font-color {
+  color: #0271be;
+}
+.banner-info-container .highlight {
   font-size: 1.5rem;
 }
