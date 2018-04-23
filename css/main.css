@@ -7,19 +7,38 @@ body {
 p {
   margin-bottom: 0;
 }
+h3 {
+  font-size: 1.125rem;
+}
 a {
-    color: #0271be;
+  color: #0271be;
+  outline: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .main-font-color {
   color: #0271be;
 }
+.error-font-color {
+  color: #d0021b;
+}
+.correct-font-color {
+  color: #49D59D;
+}
+button {
+  outline: 0;  
+}
+.button {
+  height: 50px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
 .main-button {
   background: #0271be;
   color: #fff;
-  border:0;
+  border: 0;
   height: 60px;
   cursor: pointer;
 }
@@ -34,8 +53,11 @@ input {
   margin-bottom: 1rem;
   color: #646464;
 }
+input[type="radio"] {
+  margin-bottom: 0;
+}
 label {
-    color:#929699;
+  color: #929699;
 }
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -63,29 +85,198 @@ label {
   -o-background-size: cover;
   background-size: cover;
 }
-.login-form form input[type=text],
+.login-form form input[type="text"],
 .login-form form button {
   width: 100%;
 }
-.login-form form i{
-    position: absolute;
-    margin-top: 10px;
+.login-form form i {
+  position: absolute;
+  margin-top: 10px;
 }
 
 /*OK/KO messages*/
 .message-container {
-    position: fixed;
-    bottom: 0;
-    width: 50%;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
 }
 @media (max-width: 575px) {
-    .message-container  {
-        width: 100%;
-    }
+  .message-container {
+    width: 100%;
   }
+}
 .message-container-ok {
-    background: #49D59D;
+  background: #49d59d;
 }
 .message-container-ko {
-    background: #F55E70;
+  background: #f55e70;
+}
+
+/*Header*/
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(221, 221, 221, 0.5);
+  padding: 20px 0;
+}
+
+/*ModulosNopay*/
+.module {
+  background: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px 4px 0 4px 4px;
+}
+.module .module-header {
+  padding: 20px 0;
+}
+.module .button {
+  width: 100%;
+}
+.module h3 {
+  font-size: 1.125rem;
+}
+/*Free trial component*/
+.module-trial {
+  background: #fff;
+  padding: 0 20px;
+}
+.module-trial span {
+  font-size: 0.875rem;
+}
+/*Cardiologia*/
+.module-cardiologia .button,
+.module-cardiologia .module-header {
+  background: #f57b8a;
+}
+.module-cardiologia h3,
+.module-cardiologia .module-trial {
+  color: #f57b8a;
+}
+/*Nefrologia*/
+.module-nefrologia .button,
+.module-nefrologia .module-header {
+  background: #82b7b3;
+}
+.module-nefrologia h3,
+.module-nefrologia .module-trial {
+  color: #82b7b3;
+}
+/*Hematologia*/
+.module-hematologia .button,
+.module-hematologia .module-header {
+  background: #f6729c;
+}
+.module-hematologia h3,
+.module-hematologia .module-trial {
+  color: #f6729c;
+}
+/*Pneumologia*/
+.module-pneumologia .button,
+.module-pneumologia .module-header {
+  background: #c9dbc9;
+}
+.module-pneumologia h3,
+.module-pneumologia .module-trial {
+  color: #c9dbc9;
+}
+/*Gasgtroentrologia*/
+.module-gasgtroentrologia .button,
+.module-gasgtroentrologia .module-header {
+  background: #e9af97;
+}
+.module-gasgtroentrologia h3,
+.module-gasgtroentrologia .module-trial {
+  color: #e9af97;
+}
+/*General*/
+.module-general .button,
+.module-general .module-header {
+  background: #707070;
+}
+.module-general h3,
+.module-general .module-trial {
+  color: #707070;
+}
+.module-disable {
+  opacity: 0.3;
+}
+/*Banner*/
+.section-banner {
+  background: #0271be;
+}
+.section-banner div {
+  border: 1px dotted white;
+}
+.section-banner p {
+  margin-bottom: 3px;
+}
+.section-banner .button {
+  background: #fff;
+  color: #0271be;
+  padding: 0 60px;
+}
+.section-banner p {
+  color: #fff;
+}
+/*Footer*/
+footer {
+  box-shadow: 2px 0 10px 0 rgba(221,221,221,0.50);
+}
+footer .copyright-text {
+  font-size: 0.875rem;
+}
+/*Modal*/
+.modal-content {
+  border-radius: 0;
+  border: 0;
+}
+.modal-header {
+  border-radius: 0;
+  background: #c9dbc9;
+}
+.modal-header h5 {
+  color: #fff;
+  font-size: 1rem;
+}
+.modal-backdrop {
+  background-color: #fff;
+}
+.modal-content .button {
+  width: 100%;
+} 
+/*Button Pneumologia*/
+.modal-pneumologia .button {
+  background: #c9dbc9;
+}
+/*Questions*/
+.question {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+  border-radius: 0;
+  border: 0;
+  padding: 20px;
+}
+.question label {
+  display: inline;
+}
+.question.selected {
+  background: #F2F2F2;
+}
+/*Questions custom*/
+.questions-container-cardiologia .questions-header {
+  border-bottom: 1px solid #f55e70;
+}
+.questions-container-cardiologia .questions-header h3 {
+  color: #f57b8a;
+}
+.questions-container-cardiologia .questions-content p {
+  color: #f57b8a;
+}
+/*Questions control*/
+.questions-control .button {
+  background: #0271be;
+  width: 250px;
+}
+.questions-control .button.invert {
+  background: #FFF;
+  border: 1px solid #0271be;
+  color: #0271be;
 }
